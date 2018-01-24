@@ -20,7 +20,9 @@ complex_value = complex(1, 2)
 four = int(4.6)  # Converting float to int cuts the part after the dot
 three_point_zero = float(3)  # Converting int to float adds .0 to the int value
 
-
+# Strings are a bit complicated due to differences between major Python versions but to make it short
+# everything surrounded with single-quotes, double-quotes or triple-quotes (used for docstrings)
+# and is understood as some representation of text.
 # There is a major difference how text (strings) are handled in Python between its major versions.
 # Python 2.7: 'str' type is used for ASCII encoded strings (basically latin alphabet without special characters),
 #             while 'unicode' is used for extended notation, for example: chinese and/or polish characters

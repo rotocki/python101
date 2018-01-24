@@ -29,9 +29,9 @@ tuple_of_different_types = (2, 3, 4.1, 'Cheers', [4, 3], (2,))
 
 # Items in the list can be accessed through subscript notation, like this:
 # some_list[index] - where index is an int not greater than the total amount of items in the list
-assert list_of_ints[0] == 1  # First item, index: zero
-assert list_of_ints[1] == 2  # Second item, index: one
-assert list_of_ints[2] == 3  # Third item, index: two
+assert list_of_ints[0] == 1  # First item, index: zeroth
+assert list_of_ints[1] == 2  # Second item, index: first
+assert list_of_ints[2] == 3  # Third item, index: second
 # We need to stop here or else we'll try to access an item that is out of bounds.
 # This will cause the program to crash with this message: "IndexError: list index out of range".
 # You can try it out by uncommenting the line below:
