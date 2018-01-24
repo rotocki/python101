@@ -8,6 +8,8 @@
 one = 1  # Variable 'one' is assigned a value 1 of type int (as in integer).
 two_and_a_half = 2.5  # floating-point variable (real number).
 abs_five = 3+4j  # complex number (imaginary number).
+is_this_the_real_life = True  # boolean variable which allows only True or False as its values
+is_this_just_fantasy = False  # counter-part of True :)
 
 # We can be explicit about the type by calling it directly before assignment:
 integer_value = int(1)
