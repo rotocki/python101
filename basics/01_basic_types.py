@@ -19,6 +19,12 @@ complex_value = complex(1, 2)
 # when we convert the value of one type into a value of some other type.
 four = int(4.6)  # Converting float to int cuts the part after the dot
 three_point_zero = float(3)  # Converting int to float adds .0 to the int value
+# Be careful about converting very big integers! Ints can be infinitely long while floats don't.
+# This means that if you convert a huge integer to float, the results might be different than you expected!
+# very_long_int = 2345678912347636498
+# very_long_int_converted_to_float = float(very_long_int)
+# If you compare these two variables, you will see what I mean:
+# print(int(very_long_int_converted_to_float) - very_long_int)
 
 # Strings are a bit complicated due to differences between major Python versions but to make it short
 # everything surrounded with single-quotes, double-quotes or triple-quotes (used for docstrings)
